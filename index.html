@@ -1,0 +1,700 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+
+		<!--===============================
+			General HTML Tags Overview
+		===============================-->
+
+		<!-- <section>: Defines a section in a document. Used to group related content together. -->
+		<!-- <div>: Defines a division or section in a document. It is a block-level container used to group content. -->
+		<!-- <h2>: Represents a level-2 heading. Used to define the title of a section or a subsection. -->
+		<!-- <img>: Embeds an image into the document. The 'src' attribute specifies the image source, and 'alt' provides alternative text. -->
+		<!-- <a>: Defines a hyperlink that links to another document or resource. The 'href' attribute specifies the URL of the page the link goes to. -->
+		<!-- <form>: Defines an HTML form for user input. The 'action' attribute specifies where to send the form data, and 'method' specifies the HTTP method (GET or POST). -->
+		<!-- <input>: Defines an input control in a form. The 'type' attribute specifies the type of input (text, email, etc.), and 'placeholder' provides a hint to the user. -->
+		<!-- <textarea>: Defines a multiline text input control. Used for longer user input like messages. -->
+		<!-- <button>: Defines a clickable button. Used to submit forms or trigger actions. -->
+		<!-- <ul>: Defines an unordered list. Contains list items (<li>) which represent the items in the list. -->
+		<!-- <li>: Defines a list item. Used within <ul> or <ol> tags to represent an item in the list. -->
+		<!-- <i>: Defines italic text. Often used to style icons or emphasize text. -->
+
+
+
+
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Ricardo Perez's Website</title>
+
+        <!--font-awesome.min.css (USED FOR GENERAL ICON USE AND SCALING)-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+		<!--flat icon css (ANOTHER ICON LIBRARY)-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+		
+        <!--bootstrap.min.css (USED FOR GRID LAYOUT AND IMAGE/TEXT FORMATING)-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav (LIKE BOOSTRAP BUT A BIGGER PLUGIN FOR DROPDOWN MENUS, STICKY MENUS, ETC.) -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css(THIS IS THE MAIN FILE WE USE FOR STYLING)-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css (USED FOR RESIZING SCREEN BASED ON DEVICE USED)-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+
+    </head>
+	
+	<body>
+		<!-- Top Area Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation Bar -->
+				<nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+					<div class="container">
+
+						<!-- Header Section: Logo and Mobile Menu Button -->
+						<div class="navbar-header">
+							<!-- Button for Mobile View: Toggles the menu -->
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+								<i class="fa fa-bars"></i> <!-- Icon for the menu button -->
+							</button>
+							<!-- Website Logo (you can replace 'User' with your name or logo image) -->
+							<a class="navbar-brand" href="index.html">User</a>
+						</div><!-- /.navbar-header -->
+						<!-- End Header Section -->
+
+						<!-- Navigation Menu (links to different sections of the website) -->
+						<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+							<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+								<!-- Active Class: Highlights the current section (no link here) -->
+								<li class="smooth-menu active"></li>
+								<!-- Link to the "Education" section of the page -->
+								<li class="smooth-menu"><a href="#education">Education</a></li>
+								<!-- Link to the "Experience" section -->
+								<li class="smooth-menu"><a href="#experience">Experiences</a></li>
+								<!-- Link to the "Projects" section -->
+								<li class="smooth-menu"><a href="#projects">Projects</a></li>
+								<!-- Link to the "Contact" section -->
+								<li class="smooth-menu"><a href="#contact">Contact</a></li>
+							</ul><!-- /.nav -->
+						</div><!-- /.navbar-collapse -->
+						<!-- End Navigation Menu -->
+
+					</div><!-- /.container -->
+				</nav><!-- /nav -->
+				<!-- End Navigation Bar -->
+			</div><!-- /.header-area -->
+
+			<div class="clearfix"></div> <!-- Keeps the layout clear -->
+
+		</header><!-- /.top-area -->
+		<!-- Top Area End -->
+
+
+
+
+	
+		<!-- Welcome Hero Section Start -->
+		<section id="welcome-hero" class="welcome-hero">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<!-- Header Text: Introduction of the user -->
+						<div class="header-text">
+							<!-- Main Heading: Replace 'user' with your name -->
+							<h2>hi <span>,</span> i am <br> Ricardo Perez <br></h2>
+							<!-- Subtitle: Brief description of your profession -->
+							<p>first year mechanical engineer at the walker department of mechanical engineering in the wonderful Cockrell School of Engineering at the University of Texas at Austin</p>
+							<!-- Resume Download Link: Update the link to your own resume file -->
+							<a href="assets/downloadables/Basic_Resume.docx.pdf" download>download resume</a>
+						</div><!-- /.header-text -->
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+
+		</section><!-- /.welcome-hero -->
+		<!-- Welcome Hero Section End -->
+
+
+
+
+
+
+		<!-- About Section Start -->
+		<section id="about" class="about">
+			<!-- Section Heading: 'About Me' -->
+			<div class="section-heading text-center">
+				<h2>about me</h2> <!-- Main heading for this section -->
+			</div>
+
+			<div class="container">
+				<div class="about-content">
+					<div class="row">
+
+						<!-- Left Side: Introduction and Personal Info -->
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<!-- Short introduction about yourself (can be edited) -->
+								<h3>
+									I am a Professional UI/UX Designer and Web developer. Consectetur an adipisi elita, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.
+								</h3>
+								<!-- Longer paragraph with more personal or professional information -->
+								<p>
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+								</p>
+
+								<!-- Contact Information -->
+								<div class="row">
+									<!-- Phone number (edit with your phone) -->
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>phone</h3>
+											<p>987-123-6547</p> <!-- Replace with your phone number -->
+										</div>
+									</div>
+									<!-- Email address (edit with your email) -->
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>email</h3>
+											<p>your_user@info.com</p> <!-- Replace with your email -->
+										</div>
+									</div>
+									<!-- Additional links (LinkedIn, GitHub, etc.) -->
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>Other sources</h3>
+											<p>www.LinkedinOrGithub.com</p> <!-- Replace with your LinkedIn or GitHub link -->
+										</div>
+									</div>
+								</div><!-- /.row -->
+							</div><!-- /.single-about-txt -->
+						</div><!-- /.col-sm-6 -->
+
+						<!-- Right Side: Profile Image and Social Media Icons -->
+						<div class="col-sm-offset-1 col-sm-5">
+							<div class="single-about-img">
+								<!-- Profile Image (you can replace the placeholder image) -->
+								<img src="assets/images/about/placeholder.png" alt="profile_image">
+								
+								<!-- Social Media Links -->
+								<div class="about-list-icon">
+									<ul>
+										<!-- Facebook icon/link (update the link) -->
+										<li>
+											<a href="#">
+												<i class="fa fa-facebook" aria-hidden="true"></i>
+											</a>
+										</li>
+										<!-- Dribbble icon/link (update the link) -->
+										<li>
+											<a href="#">
+												<i class="fa fa-dribbble" aria-hidden="true"></i>
+											</a>
+										</li>
+										<!-- Twitter icon/link (update the link) -->
+										<li>
+											<a href="#">
+												<i class="fa fa-twitter" aria-hidden="true"></i>
+											</a>
+										</li>
+										<!-- LinkedIn icon/link (update the link) -->
+										<li>
+											<a href="#">
+												<i class="fa fa-linkedin" aria-hidden="true"></i>
+											</a>
+										</li>
+										<!-- Instagram icon/link (update the link) -->
+										<li>
+											<a href="#">
+												<i class="fa fa-instagram" aria-hidden="true"></i>
+											</a>
+										</li>
+									</ul><!-- /.ul -->
+								</div><!-- /.about-list-icon -->
+
+							</div><!-- /.single-about-img -->
+						</div><!-- /.col-sm-5 -->
+
+					</div><!-- /.row -->
+				</div><!-- /.about-content -->
+			</div><!-- /.container -->
+		</section><!-- /.about -->
+		<!-- About Section End -->
+
+
+
+
+		
+		<!-- Education Section Start -->
+		<section id="education" class="education">
+			<!-- Section Heading: 'Education' -->
+			<div class="section-heading text-center">
+				<h2>education</h2> <!-- Main heading for the education section -->
+			</div>
+
+			<div class="container">
+				<!-- Horizontal Timeline Container -->
+				<div class="education-horizontal-timeline">
+					<div class="row">
+
+						<!-- First Education Entry -->
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<!-- Time and Degree Info -->
+								<div class="experience-time">
+									<h2>Start Date - End Date</h2> <!-- Time range of the degree -->
+									<h3>Degree Title <span>of</span> Field of Study</h3> <!-- Degree title and field -->
+								</div>
+
+								<!-- Timeline Border and Icon -->
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i> <!-- Timeline icon -->
+									<span class="single-timeline-horizontal"></span> <!-- Horizontal line linking entries -->
+								</div>
+
+								<!-- Timeline Content: School Info -->
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">University Name</h4> <!-- University name -->
+										<h5>City, Country</h5> <!-- Location -->
+										<p class="description">
+											Brief description about your experience, coursework, or focus during this time. 
+										</p>
+									</div><!--/.timeline-content-->
+								</div><!--/.timeline-->
+							</div><!--/.single-horizontal-timeline-->
+						</div><!--/.col-sm-4-->
+
+						<!-- Repeat for more education entries -->
+						<!-- Second Education Entry -->
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<!-- Time and Degree Info -->
+								<div class="experience-time">
+									<h2>Start Date - End Date</h2> 
+									<h3>Degree Title <span>of</span> Field of Study</h3>
+								</div>
+
+								<!-- Timeline Border and Icon -->
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal"></span>
+								</div>
+
+								<!-- Timeline Content: School Info -->
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">University Name</h4>
+										<h5>City, Country</h5>
+										<p class="description">
+											Brief description about your experience, coursework, or focus during this time. 
+										</p>
+									</div><!--/.timeline-content-->
+								</div><!--/.timeline-->
+							</div><!--/.single-horizontal-timeline-->
+						</div><!--/.col-sm-4-->
+
+						<!-- Third Education Entry (or add more as needed) -->
+						<div class="col-sm-4">
+							<div class="single-horizontal-timeline">
+								<!-- Time and Degree Info -->
+								<div class="experience-time">
+									<h2>Start Date - End Date</h2> 
+									<h3>Degree Title <span>of</span> Field of Study</h3>
+								</div>
+
+								<!-- Timeline Border and Icon -->
+								<div class="timeline-horizontal-border">
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="single-timeline-horizontal spacial-horizontal-line"></span>
+								</div>
+
+								<!-- Timeline Content: School Info -->
+								<div class="timeline">
+									<div class="timeline-content">
+										<h4 class="title">University Name</h4>
+										<h5>City, Country</h5>
+										<p class="description">
+											Brief description about your experience, coursework, or focus during this time. 
+										</p>
+									</div><!--/.timeline-content-->
+								</div><!--/.timeline-->
+							</div><!--/.single-horizontal-timeline-->
+						</div><!--/.col-sm-4-->
+
+					</div><!--/.row-->
+				</div><!--/.education-horizontal-timeline-->
+			</div><!--/.container-->
+
+		</section><!--/.education-->
+		<!-- Education Section End -->
+
+
+
+		<!--experience start -->
+		<section id="experience" class="experience">
+			<div class="section-heading text-center">
+				<h2>experience</h2>
+			</div>
+			<div class="container">
+				<div class="experience-content">
+						<div class="main-timeline">
+							<ul>
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="experience-time text-right">
+													<h2>2018 - Present</h2>
+													<h3>creative director</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5">
+												<div class="timeline">
+													<div class="timeline-content">
+														<h4 class="title">
+															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+															hoplony tech limited
+														</h4>
+														<h5>newyork, USA</h5>
+														<p class="description">
+															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-offset-1 col-md-5 experience-time-responsive">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														2016 - 2018
+													</h2>
+													<h3>associate design director</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-5">
+												<div class="timeline">
+													<div class="timeline-content text-right">
+														<h4 class="title">
+															hoplony tech limited
+														</h4>
+														<h5>newyork, USA</h5>
+														<p class="description">
+															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5 experience-time-main">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														2016 - 2018
+													</h2>
+													<h3>associate design director</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="experience-time text-right">
+													<h2>2013 - 2016</h2>
+													<h3>senior UI/UX designer</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5">
+												<div class="timeline">
+													<div class="timeline-content">
+														<h4 class="title">
+															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+															hoplony tech limited
+														</h4>
+														<h5>newyork, USA</h5>
+														<p class="description">
+															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-offset-1 col-md-5 experience-time-responsive">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														2012 - 2013
+													</h2>
+													<h3>UI/UX designer</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-5">
+												<div class="timeline">
+													<div class="timeline-content text-right">
+														<h4 class="title">
+															hoplony tech limited
+														</h4>
+														<h5>newyork, USA</h5>
+														<p class="description">
+															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5 experience-time-main">
+												<div class="experience-time">
+													<h2>
+														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+														2012 - 2013
+													</h2>
+													<h3>UI/UX designer</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+								<li>
+									<div class="single-timeline-box fix">
+										<div class="row">
+											<div class="col-md-5">
+												<div class="experience-time text-right">
+													<h2>2010 - 2012</h2>
+													<h3>frontend developer</h3>
+												</div><!--/.experience-time-->
+											</div><!--/.col-->
+											<div class="col-md-offset-1 col-md-5">
+												<div class="timeline">
+													<div class="timeline-content">
+														<h4 class="title">
+															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
+															hoplony tech limited
+														</h4>
+														<h5>newyork, USA</h5>
+														<p class="description">
+															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+														</p>
+													</div><!--/.timeline-content-->
+												</div><!--/.timeline-->
+											</div><!--/.col-->
+										</div>
+									</div><!--/.single-timeline-box-->
+								</li>
+
+							</ul>
+						</div><!--.main-timeline-->
+					</div><!--.experience-content-->
+			</div>
+
+		</section><!--/.experience-->
+		<!--experience end -->
+
+
+		<!--portfolio start -->
+		<section id="projects" class="portfolio">
+			<!-- Portfolio details container -->
+			<div class="portfolio-details">
+				<!-- Section heading -->
+				<div class="section-heading text-center">
+					<h2>Projects</h2>
+				</div><!-- /.section-heading -->
+
+				<!-- Main content container -->
+				<div class="container">
+					<!-- Portfolio content area -->
+					<div class="portfolio-content">
+						<!-- Isotope for filtering and layout (if needed) -->
+						<div class="isotope">
+							<div class="row">
+
+								<!-- Column 1 for project images -->
+								<div class="col-sm-4">
+									<!-- First project item -->
+									<div class="item">
+										<img src="assets/images/portfolio/p1.jpg" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="#">
+												ui/ux design
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+
+									<!-- Second project item -->
+									<div class="item">
+										<img src="assets/images/portfolio/p2.jpg" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="#">
+												ui/ux design
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<!-- Column 2 for project images -->
+								<div class="col-sm-4">
+									<!-- Third project item -->
+									<div class="item">
+										<img src="assets/images/portfolio/p3.jpg" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="#">
+												web design
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+
+								<!-- Column 3 for project images -->
+								<div class="col-sm-4">
+									<!-- Fourth project item -->
+									<div class="item">
+										<img src="assets/images/portfolio/p4.jpg" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="#">
+												web development
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+
+									<!-- Fifth project item -->
+									<div class="item">
+										<img src="assets/images/portfolio/p5.jpg" alt="portfolio image"/>
+										<div class="isotope-overlay">
+											<a href="#">
+												web development
+											</a>
+										</div><!-- /.isotope-overlay -->
+									</div><!-- /.item -->
+								</div><!-- /.col -->
+							</div><!-- /.row -->
+						</div><!--/.isotope-->
+					</div><!--/.gallery-content-->
+				</div><!--/.container-->
+			</div><!--/.portfolio-details-->
+
+		</section><!--/.portfolio-->
+		<!--portfolio end -->
+
+
+
+		<!-- contact start -->
+		<section id="contact" class="contact">
+			<div class="section-heading text-center">
+				<h2>Contact Me</h2>
+			</div>
+			<div class="container">
+				<div class="contact-content">
+					<div class="row">
+						<!-- Centered column: Contact details -->
+						<div class="col-md-12">
+							<div class="single-contact-box text-center">
+								<div class="contact-address">
+									<div class="contact-add-head">
+										<h3>Name</h3>
+										<p>UI/UX Designer</p>
+									</div>
+									<div class="contact-add-info">
+										<!-- Phone details -->
+										<div class="single-contact-add-info">
+											<h3>Phone</h3>
+											<p>987-123-6547</p>
+										</div>
+										
+										<!-- Email details -->
+										<div class="single-contact-add-info">
+											<h3>Email</h3>
+											<p>user@info.com</p>
+										</div>
+
+										<!-- LinkedIn details -->
+										<div class="single-contact-add-info">
+											<h3>LinkedIn</h3>
+											<p>www.myLinkedIn.com</p>
+										</div>
+									</div>
+								</div><!--/.contact-address-->
+								
+								<!-- Social media icons -->
+								<div class="hm-foot-icon" style="text-align: center;">
+									<ul class="list-inline" style="padding-left: 0; margin: 0 auto; display: flex; justify-content: center;">
+										<li style="margin: 0 10px;"><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li style="margin: 0 10px;"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+										<li style="margin: 0 10px;"><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li style="margin: 0 10px;"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+										<li style="margin: 0 10px;"><a href="#"><i class="fa fa-instagram"></i></a></li>
+									</ul><!--/ul-->
+								</div><!--/.hm-foot-icon-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.contact-content-->
+			</div><!--/.container-->
+		</section><!--/.contact-->
+		<!-- contact end -->
+
+
+
+
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+		
+		<!-- jquery.sticky.js -->
+		<script src="assets/js/jquery.sticky.js"></script>
+		
+
+		<!-- appear js -->
+		<script src="assets/js/jquery.appear.js"></script>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		
+        
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
+</html>
